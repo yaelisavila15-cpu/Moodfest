@@ -1,18 +1,36 @@
-*{
-    padding: 0;
-    margin: 0;
-
-}
-
-.cabecera{
-    list-style: none;
+.formulario{
     display: flex;
-    background: linear-gradient(to right, #2A7B9B, #57C785);
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    margin: 40px auto;
+    background: linear-gradient(to bottom, rgb(83, 184, 224), rgb(4, 221, 112));
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.12);
 }
 
-li a{
-    color: blue;
-    display: block;
-    text-decoration: none;
+.fuente-label{
+    font-size: 20px;
+}
 
+input, textarea{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:  rgb(255, 197, 4);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(254, 230, 12);
+    transition: 0.5s;
 }

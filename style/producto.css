@@ -1,0 +1,41 @@
+.columna{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 60px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.contenedor-producto{
+    background: rgb(243, 243, 243);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.titulo-contenedor{
+    font-size: 27px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.imagen-contenedor{
+    width: 80%;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.12);
+}
+
+.texto-contenedor{
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.contenedor-producto:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
